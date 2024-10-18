@@ -1,11 +1,9 @@
 *** Settings ***
-Documentation   This is some basic ino about the whole suits
-Library         SeleniumLibrary
-
+Library    SeleniumLibrary
 #run the script
 # robot -d results test/crm
 *** Variables ***
-  
+
 
 *** Test Cases ***
 Shoud be able to add new customer
